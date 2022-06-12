@@ -1,6 +1,6 @@
 #include"Rand.h"
 #include<random>
-#include<iostream>
+
 Rand::Rand(int sizenum, int maxnum) {
 	Maxnum = maxnum;
 	Sizenum = sizenum;
@@ -9,12 +9,14 @@ Rand::Rand(int sizenum, int maxnum) {
 	RandMax();
 }
 
+
 void Rand::RandMax() {
 	int i;
 	for (i = 0; i < Sizenum; i++) {
 		vec.push_back(rand() % Maxnum + 1);
 	}
 }
+
 
 void Rand::setMax(int maxnum) {
 	Maxnum = maxnum;
@@ -23,6 +25,6 @@ void Rand::setMax(int maxnum) {
 void Rand::toString() {
 	int i;
 	for (i = 0; i < Sizenum; i++) {
-		cout << i + 1 << "ŒÂ‚ßF" << vec[i] << endl;
+		cout << i + 1 << "ŒÂ–Ú‚Ì—”F" << vec[i] << endl;
 	}
 }
