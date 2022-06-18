@@ -1,0 +1,3 @@
+﻿  ソース.cpp
+C:\Users\hayav\Desktop\Git\Cpp\timeTest\timeTest\ソース.cpp(50,51): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  timeTest.vcxproj -> C:\Users\hayav\Desktop\Git\Cpp\timeTest\x64\Debug\timeTest.exe
